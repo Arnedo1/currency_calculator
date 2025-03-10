@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Questrial&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(img/walstreet.jpg);
+    background-position: center;
+
+}
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+.container {
+    background-color: rgba(0, 0, 0, 0.609);
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+}
+/* .currency-list {
+
+} */
+
+.currency-div {
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 20px;
+    height: 50px;
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.front {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.cross {
+    height: 25px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.currency-value {
+    cursor: pointer;
+}
+
+
+.creator {
+text-align: center;
+margin: 5px;
+color: white;
+
+padding: 3px;
+border-radius: 5px;
+}
+
+.btn-container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.input-value {
+    width: 40px;
+    display: none;
+}
+.input-value:focus{
+    outline: none;
+}
+
+
+select {
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: rgb(169, 171, 172);
+    color: white;
+}
+select:focus {
+    outline: none;
+  }
+/* Firefox */
+select {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+  }
+    
+#currency-one {
+    display: block !important;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(169, 171, 172);
+    color: white;
+}
+
+.select2-container {
+    min-width: 100px;
+}
+
+.select2-dropdown {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.btn-container {
+    min-height: 40px;
+    margin: 15px 0;
+}
