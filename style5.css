@@ -123,3 +123,11 @@ select {
     min-height: 40px;
     margin: 15px 0;
 }
+@media (max-width: 500px) {
+    .container {
+        width: 90%; /* Make it responsive */
+    }
+    .currency-div {
+        max-width: 100%; /* Let it fill the container */
+    }
+}
