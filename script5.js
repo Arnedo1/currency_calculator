@@ -253,7 +253,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         // Initialize Select2 with minimal configuration
         $('#currency-one').select2({
             placeholder: 'Select Currency',
-            width: '40%',
+            width: '50%',
         });
     }
 });
